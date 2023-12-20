@@ -1,0 +1,15 @@
+<div class="dashboard">
+  <div class="dashboard__header w-12 mb-3">
+    <h1>Meus relatórios</h1>
+  </div>
+  <div class="dashboard__body">
+    <app-message-error
+      [viewIcon]="true"
+      classIcon="pi-info-circle"
+      message="Não há relatório cadastrado.">
+    </app-message-error>
+  </div>
+  <div class="dashboard__footer">
+    <p-button type="button" label="Novo relatório" (onClick)="goToNewReport()"></p-button>
+  </div>
+</div>

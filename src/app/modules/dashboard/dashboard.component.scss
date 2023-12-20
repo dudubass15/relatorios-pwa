@@ -1,0 +1,25 @@
+.dashboard {
+  &__header {
+    width: 100%;
+    height: auto;
+  }
+
+  &__body {
+    width: 100%;
+    height: auto;
+  }
+
+  &__footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0x;
+    right: 0px;
+    padding: 20px 10px;
+
+    ::ng-deep .p-button {
+      width: 100%;
+    }
+  }
+}
